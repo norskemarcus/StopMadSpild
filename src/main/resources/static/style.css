@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    min-height: 100vh;
+    border: 2px solid white;
+    margin: 1em;
+    padding: 1em;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0;
+}
+
+header {
+    background-color: lightgreen;
+    padding: 3em;
+    margin: 0em 1em;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2vh;
+}
+
+#ingredienser {
+    background-size: cover;
+}
+
+.sidebyside {
+    display: flex;
+    flex-grow: 1;
+    gap: 1em;
+}
+
+.billede img {
+    flex-grow: 1;
+}
